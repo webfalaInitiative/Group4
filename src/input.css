@@ -1,7 +1,10 @@
 @tailwind base;
 @tailwind components;
 
-html, body{
+@tailwind utilities;
+
+
+/* html, body{
     background-color: #ffffff;
     margin: 5rem;
 }
@@ -16,7 +19,7 @@ nav{
 
 .flex{
     margin: 2rem;
-    /* padding-right: 0rem; */
+    /* padding-right: 0rem; 
    
 }
 .speakUp{
@@ -43,7 +46,7 @@ button{
     width: 14.68rem;
     height: 5.12rem;
     font-size: 1.12rem;
-    /* padding: 0.62rem; */
+    /* padding: 0.62rem; 
     margin-top: 3.06rem;
     margin-left: 5.62rem;
 }
@@ -60,7 +63,7 @@ button{
 
 /* a:hover{
     color: #537BE1;
-} */
+} 
 .contact{
 
     p {
@@ -179,7 +182,7 @@ p{
     p{
         padding-left: 1rem;
         padding-right: 0rem;
-        /* justify-content: left; */
+        /* justify-content: left; 
     }
     img{
         color: #CDCBCB;
@@ -211,9 +214,9 @@ p{
         padding-top: 0.5rem;
 
     }
-}
+} 
 
-/* .footer{
+.footer{
     background-color: #022253;
     width: 90rem;
     height: 40.6875rem;
@@ -222,7 +225,5 @@ p{
     color:#ffffff;
     padding-top: 5.6875rem;
     padding-left: 5.9375rem;
-} */
+} /*
 
-
-@tailwind utilities;
