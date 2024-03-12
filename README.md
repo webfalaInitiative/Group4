@@ -1,8 +1,6 @@
 # SPEAK UP: A web platform that allows individuals to anonymously report incidents of Sexual- and Gender-based Violence. #
 
-SPEAK UP was a group project by some of the 2023 Fellows from a Training organized by _Webfala Digital Skills For All Initiative_ (WDSFAI) in collaboration with _The Circle_ tagged: ### SafeHer: STEM Skills to Combat SGBV ###
-
-It was a digital skills training organized to equip women with digital skills in a bid to combat Sexual- and Gender-based Violence.
+SPEAK UP was a group project by some of the 2023 Fellows from a Training organized by _Webfala Digital Skills For All Initiative_ (WDSFAI) in collaboration with _The Circle_ tagged "SafeHer: STEM Skills to Combat SGBV". It was a digital skills training organized to equip women with digital skills in a bid to combat Sexual- and Gender-based Violence.
 
 This project showcases a web-based platform that provides a safe and confidential space for individuals to anonymously report incidents of Sexual- and Gender-based Violence and also offers a comprehensive range of support services and resources tailored to survivors’ needs such as counseling, legal assistance, medical support and advocacy to help navigate the path to healing and recovery. It was produced by a team of seven extraordinary ladies (see pictures below) consisting of three Software Developers and four Product Designers. You are welcome to view and constructive criticisms are welcome!
 
