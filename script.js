@@ -11,8 +11,8 @@ function toggleMenu(){
         closeIcon.style.display='block'
     }else{
         menu.classList.add('show-menu')
-        menuIcon.style.display='none'
-        closeIcon.style.display='block'
+        menuIcon.style.display='block'
+        closeIcon.style.display='none'
     }
 }
 hamburger.addEventListener("click",toggleMenu)
