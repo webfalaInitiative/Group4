@@ -13,12 +13,10 @@
     
     <!--SECTION 1 header  -->
     <header>
-        <section class="flex ml-[5.31rem] mt-[3.94rem] mr-[5.63rem]">
-          <div  class="my-[0.16rem]">
-              <img src="images/log0.svg" alt="Speakup-logo" class="w-[14rem] h-[4.06rem]">
-          </div>
-          <div class="ml-[6.25rem]"> 
-            <ul class="list-none flex gap-[3.97rem] my-[1.58rem] font-[400] text-[1.13rem] leading-5 text-[#000000]">
+        <section class=" flex lg:ml-[5.31rem] ml-[1.8rem] justify-between items-center mt-[3.94rem] mr-[5.63rem]">
+              <img src="./images/log0.svg" alt="Speakup-logo" class="lg:w-[14rem] w-[9.6rem] lg:h-[4.06rem] h-[2.5rem]">
+          <div> 
+            <ul class="list-none lg:flex hidden gap-[3.97rem] my-[1.58rem] font-[400] text-[1.13rem] leading-5 text-[#000000]">
               <li>
                 <a class="hover:font-extrabold hover:text-black" href="index.html">Home</a>
               </li>
@@ -30,18 +28,33 @@
               </li>
             </ul>
           </div>
-          <div>
-            <!-- <button type="button"  class="ml-[9.38rem] bg-[#537BE1] w-[10.44rem] h-[4.38rem] text-[#FFFFFF] rounded-[5.62rem] hover:text-black">
-              Report Now
-            </button> -->
-            <a href="report page.html"><button class="ml-[9.38rem] mr-[5.63rem] bg-[#537BE1] py-[1rem] px-[1.5rem] text-[#FFFFFF] rounded-[5.63rem] hover:text-black">Report Now</button></a>
+          <div class="lg:flex hidden">
+          <a href="report page.html"><button class=" bg-[#537BE1] py-[1rem] px-[1.5rem] text-[#FFFFFF] rounded-[5.63rem] hover:text-black">Report Now</button></a>
           </div>
         </section>
     </header>
-  
+    <!-- mobile view -->
+    <ul class="menu lg:hidden block list-none my-[1.58rem] font-[400] text-[1.13rem] leading-5 text-[#000000]">
+      <li>
+        <a class="hover:font-extrabold hover:text-black" href="index.html">Home</a>
+      </li>
+      <li>
+        <a class="hover:font-extrabold hover:text-black" href="about.html">About Us</a>
+      </li>
+      <li>
+        <a class="hover:font-extrabold hover:text-black" href="resources.html">Resources</a>
+      </li>
+      <li>
+        <a  class="hover:font-extrabold hover:text-black"  href="report page.html">Report Now</a>
+      </li>
+    </ul>
+    <button class="hamburger lg:hidden block">
+      <img src="./pictures/menu.svg" alt="menu icon" class="menu-icon">
+      <img src="./pictures/close.svg" alt="close icon" class="close-icon">
+    </button>
     <main>
         <!-- SECTION 2  speak up-->
-        <section class="mt-[5rem] mx-[5rem] items-center  lg:flex block justify-between">
+        <section class="mt-[5rem] lg:mx-[5rem] ml-[1.9rem] items-center  lg:flex block justify-between mr-[5.63rem]">
             <!--LHS  -->
             <div class=" w-[36rem] mb-[2rem] lg:mb-0 ">
                 <div>
@@ -49,7 +62,7 @@
     
                     Speak Up! Report Sexual and Gender-Based Violence Anonymously.
                 </h2>
-                <p class="lg:text-[20px] text-[15px]  lg:w-[550px] w-[313px] mt-[1.5rem]">Your Safe Haven for Reporting incidents of Sexual and Gender-Based Violence. We provide a safe and confidential space to report anonymously.</p>
+                <p class="lg:text-[20px] text-[14px]  lg:w-[550px] w-[313px] mt-[1.5rem]">Your Safe Haven for Reporting incidents of Sexual and Gender-Based Violence. We provide a safe and confidential space to report anonymously.</p>
                 <a href="report page.html"><button class=" mt-[2rem] mr-[5.63rem]  py-[1rem] px-[1.5rem] bg-[#537BE1] text-[#FFFFFF] rounded-[5.63rem] hover:text-black">Report Now</button></a>
                 
                 </div>
@@ -62,7 +75,7 @@
 
 
         <!-- SECTION 3  report ananemosly-->
-        <section class= "mt-[5rem] mx-[5rem]">
+        <section class= "mt-[5rem] lg:mx-[5rem] ml-[1.9rem]">
             <div class="">
                 <h2 class="font-bold lg:text-[50px] lg:w-[1260px] text-[25px] w-[290px]  leading-[4rem]">
                     Report Anonymously, Speak Up Safely
@@ -79,7 +92,7 @@
        
 
         <!--SECTION 4  support service -->
-        <section class="mt-[5rem] mx-[5rem]">
+        <section class="mt-[5rem] lg:mx-[5rem] ml-[1.9rem]">
             <div class="">
                 <h2 class="font-bold lg:text-[50px] lg:w-[1255px] text-[25px] w-[328px] leading-[4rem]">
                     Support Services</h2>
@@ -92,7 +105,7 @@
        
 
         <!-- SECTION 6 -->
-        <section class="mt-[5rem] mx-[5rem]">
+        <section class="mt-[5rem] lg:mx-[5rem] ml-[1.9rem]">
             <div class="flex lg:flex-row flex-col gap-[2rem] items-center  "lg:data-aos="flip-left"
            lg:data-aos-easing="ease-out-cubic"
            lg:data-aos-duration="3000" >
@@ -105,7 +118,7 @@
 
 
         <!-- section 7 legal aid -->
-       <section class="mt-[5rem] mx-[5rem]  ">
+       <section class="mt-[5rem] lg:mx-[5rem] ml-[1.9rem]">
         
             <div class="" >
                 <h2 class="font-extrabold lg:text-[40px] lg:w-[350px] w-[150px] text-[20px] leading-[4rem]">
@@ -122,7 +135,7 @@
 
 
        <!-- section8 -->
-       <section class="mt-[5rem] mx-[5rem]">
+       <section class="mt-[5rem] lg:mx-[5rem] ml-[1.9rem]">
         <div class="flex lg:flex-row flex-col gap-[2rem] items-center "  lg:data-aos="flip-left"
        lg:data-aos-easing="ease-out-cubic"
         lg:data-aos-duration="3000" >
@@ -134,13 +147,13 @@
 
        </section>
        <!-- section 9 desktop medical -->
-       <section class="mt-[5rem] mx-[5rem] lg:block hidden">
+       <section class="mt-[5rem] lg:mx-[5rem] ml-[1.9rem] lg:block hidden">
         <div class="flex lg:flex-row flex-col gap-[2rem] items-center "data-aos="flip-left"
         data-aos-easing="ease-out-cubic"
         data-aos-duration="3000" >
-            <img src="../pictures/med1.svg" class="h-[22.80rem]">
-             <img src="../pictures/med2.svg" class="h-[22.80rem]">
-                <img src="../pictures/med3.svg" class="h-[22.80rem]">
+            <img src="./pictures/med1.svg" class="h-[22.80rem]">
+             <img src="./pictures/med2.svg" class="h-[22.80rem]">
+                <img src="./pictures/med3.svg" class="h-[22.80rem]">
     
             </div>
     
@@ -159,7 +172,7 @@
 
    </section>
    <!-- mobile view -->
-   <section class="mt-[5rem] mx-[5rem] lg:hidden ">
+   <section class="mt-[5rem] lg:mx-[5rem] lg:hidden ml-[1.9rem]">
     <div class="flex lg:flex-row flex-col gap-[2rem] items-center "data-aos="flip-left"
     data-aos-easing="ease-out-cubic"
     data-aos-duration="3000" >
@@ -176,10 +189,10 @@
       
   
    <!-- section 11 -->
-   <section class="mt-[5rem] mx-[5rem]">
+   <section class="mt-[5rem] lg:mx-[5rem] ml-[1.9rem]">
     <div>
         <h2 class="font-bold lg:text-[35px] lg:w-[406px] text-[18px] w-[303px] leading-[4rem]">Take the First Step</h2>
-        <p class="lg:text-[18px]lg:w-[604px] mt-[1.5rem] w-[315px] text-[12px]">
+        <p class="lg:text-[18px] lg:w-[604px] mt-[1.5rem] w-[315px] text-[12px]">
         Ready to take control of your story and break the silence anonymously.</p>
     </div>
     
@@ -187,7 +200,7 @@
 
    <!-- section 12 -->
    <!-- <section class="mt-[5rem] mx-[5rem]  lg:flex block gap-4 "> -->
-    <section class=" mt-[5rem] mx-[5rem] flex lg:flex-row flex-col gap-[2rem] items-center">
+    <section class=" mt-[5rem] lg:mx-[5rem] ml-[1.9rem] flex lg:flex-row flex-col gap-[2rem] items-center">
         <!-- <img  src="../pictures/step1.svg" class="">
         <img src="../pictures/step2.svg">
         <img src="../pictures/step3.svg">   -->
@@ -200,7 +213,7 @@
 <!-- mb-[1rem] lg:mb-0  h-[22.80rem]  -->
   
    <!-- section 13 -->
-   <section class="mt-[5rem] mx-[5rem]">
+   <section class="mt-[5rem] lg:mx-[5rem] ml-[1.9rem]">
     <div>
         <h2 class=" font-bold lg:w-[313px] lg:text-[50px] w-[ 186px] text-[18px]">
        
@@ -214,7 +227,7 @@
 
    
    <!-- section 14 -->
-   <section class="mt-[5rem] mx-[5rem]" >
+   <section class="mt-[5rem] lg:mx-[5rem] ml-[1.9rem]" >
    <div class="flex lg:flex-row flex-col gap-[2rem] items-center ">
     <!-- test-card1 -->
         <div>

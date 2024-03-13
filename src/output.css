@@ -549,10 +549,55 @@ html, body{
   margin: 0;
   width: 100vw;
   height: 100vh;
+  overflow-y: auto;
 }
 
 *{
   box-sizing: border-box;
+}
+
+:root{
+  font-size: 16px;
+}
+
+@media only screen and (max-width:768px){
+  :root{
+    font-size: 12px
+  }
+}
+
+.menu{
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: -1.8rem;
+  bottom: 0;
+  transform: translateY(-100%);
+  transition: transform 0.3s;
+  z-index: 100;
+  background-color: rgb(247, 243, 243);
+  padding: 2rem;
+  height: 8rem;
+}
+
+.hamburger{
+  position: fixed;
+  top:6%;
+  right: 1rem;
+  z-index: 100;
+}
+
+.hamburger img{
+  width: 2rem;
+  height: 2rem;
+}
+
+.close-icon{
+  display: none;
+}
+
+.show-menu{
+  transform:translateY(0)
 }
 
 
