@@ -4,18 +4,40 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="./src/output.css">
   <script src="https://cdn.tailwindcss.com"></script>
   <title>About Page</title>
 </head>
 <body>
   <main>
+    <!-- Desktop View  -->
     <nav>
-      <section class="flex ml-[5.31rem] mt-[3.94rem] mr-[5.63rem]">
+      <section class="flex lg:ml-[5.31rem] ml-[1.6rem] lg:mt-[3.94rem] mt-[1.8rem] lg:mr-[5.63rem] mr-[1.6rem]">
         <div  class="my-[0.16rem]">
-            <img src="images/log0.svg" alt="Speakup-logo" class="w-[14rem] h-[4.06rem]">
+            <img src="images/log0.svg" alt="Speakup-logo" class="lg:w-[14rem] w-[7.6rem] lg:h-[4.06rem] h-[1.5rem]">
         </div>
-        <div class="ml-[6.25rem]"> 
-          <ul class="list-none flex gap-[3.97rem] my-[1.58rem] font-[400] text-[1.13rem] leading-5 text-[#000000]">
+        <div class="ml-[6.25rem] lg:flex hidden"> 
+          <ul class="list-none flex gap-[3.97rem] my-[1.58rem]  font-[400] text-[1.13rem] leading-5 text-[#000000]">
+            <li>
+              <a class="hover:font-extrabold hover:text-black" href="home.html">Home</a>
+            </li>
+            <li>
+              <a class="hover:font-extrabold hover:text-black" href="about.html">About Us</a>
+            </li>
+            <li>
+              <a class="hover:font-extrabold hover:text-black" href="resources.html ">Resources</a>
+            </li>
+          </ul>
+        </div>
+        <div class="lg:flex hidden ">
+          <a href="report page.html"><button class="ml-[9.38rem] mr-[5.63rem] bg-[#537BE1] w-[10.44rem] h-[4.38rem] text-[#FFFFFF] rounded-[5.63rem] hover:text-black">Report Now</button></a>
+        </div>
+      </section>
+    </nav>
+    <!-- Mobile View  -->
+
+        <div class="menu ml-[6.25rem]"> 
+          <ul class="list-none lg:hidden block gap-[3.97rem]">
             <li>
               <a class="hover:font-extrabold hover:text-black" href="home.html">Home</a>
             </li>
@@ -25,16 +47,19 @@
             <li>
               <a class="hover:font-extrabold hover:text-black" href="resources.html">Resources</a>
             </li>
+            <li>
+            <a href="report page.html"  class="text-[#000000] hover:text-black">Report Now</a>
+            </li>
           </ul>
         </div>
-        <div>
-          <!-- <button type="button"  class="ml-[9.38rem] bg-[#537BE1] w-[10.44rem] h-[4.38rem] text-[#FFFFFF] rounded-[5.62rem] hover:text-black">
-            Report Now
-          </button> -->
-          <a href="report page.html"><button class="ml-[9.38rem] mr-[5.63rem] bg-[#537BE1] w-[10.44rem] h-[4.38rem] text-[#FFFFFF] rounded-[5.63rem] hover:text-black">Report Now</button></a>
-        </div>
+         
+        <button class="hamburger lg:hidden">
+          <img class="menu-icon w-[1.4rem] h-[0.9rem]" src="images/menu.svg" alt="Menu Icon">
+          <img class="close-icon hidden" src="images/close line .svg" alt="Close Icon">
+      </button>
       </section>
-    </nav>
+
+    <!-- Desktop  -->
     <p class="text-[#232323] mt-[2.39rem] ml-[29.31rem] mr-[29rem] leading-10 font-[700] text-[2.5rem]">About Us</p>
 
     <div class="flex">
@@ -89,7 +114,7 @@
           </div>
         </section>
         <!-- Footer Section -->
-  <section class="bg-[#022253] w-[80rem] h-[40.69rem] mt-[11.38rem] mx-[0]">
+  <section class="bg-[#022253] w-[80rem] h-[40.69rem] mt-[8.38rem] mx-[0]">
     <div class="flex">
       <div>
         <div class="ml-[6.62rem] pt-[4.75rem]"><img src="images/footerlogo.svg" alt="Speakup-logo"></div>
@@ -151,6 +176,6 @@
     <script>
       AOS.init();
     </script>
+
 </body>
 </html>
-<!-- <p class="text-[#] font-[700] text-[2rem] leading-9">Speak Up</p> -->
