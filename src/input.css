@@ -1,41 +1,16 @@
 @tailwind base;
 @tailwind components;
+
 html, body{
-  @apply w-[100%] h-[100%] overflow-y-auto;
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
 }
 
-.menu{
-  position: fixed;
-  right: 0;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  transform: translateY(-100%);
-  /* transition: transform 0.3s;
-  z-index: 100;
-  background-color: brown;
-  padding: 2rem;
-  height: 8rem; */
+*{
+    box-sizing: border-box;
 }
-
-.hamburger{
-  position: fixed;
-  top: 1px;
-  right: 1px;
-
-}
-  
-.close-icon{
-  display: none;
-}
-
-.show-menu{
-  transform: translateY(0);
-}
-
-  /* @media only screen and (max-width: 768px) {
-    .hamburger-menu {
-      display: block; 
-    }
-  } */
 @tailwind utilities;
+
+
