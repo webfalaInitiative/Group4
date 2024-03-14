@@ -53,12 +53,7 @@ html, body{
 .show-menu{
     transform:translateY(0)
 }
-.report{
-    text-size-adjust: 9.4px;
-    width: 61.12px;
-    /* height: 20.69px; */
-    text-align: center; 
-}
+
 @tailwind utilities;
 
 
