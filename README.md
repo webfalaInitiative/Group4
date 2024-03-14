@@ -13,4 +13,6 @@ This project showcases a web-based platform that provides a safe and confidentia
 
 ![Ibrahim Aishat Opeyemi](https://github.com/webfalaInitiative/Group4/assets/118520344/97298e4d-284c-4e05-8633-b76a9613fd73)
 
+![Rukayya Abdulkadir](https://github.com/webfalaInitiative/Group4/assets/118520344/38b02876-0726-4f6e-a364-592e7f0fd0e8)
 
+Rukayya Abdulkadir (Software Developer)
