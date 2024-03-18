@@ -55,7 +55,7 @@
     <p>Report Anonymously</p>
   </section>
 
-  <section class="lg:w-[79rem] w-[32.30rem] lg:h-[17.5rem] h-[11.87rem] bg-[#022253] lg:mt-[4.44rem] mt-[1.42rem] rounded-[1.88rem] mx-0">
+  <section class="w-[100vw] lg:h-[17.5rem] h-[11.87rem] bg-[#022253] lg:mt-[4.44rem] mt-[1.42rem] rounded-[1.88rem] mx-0">
     <p class="font-[700] text-[#FFFFFF] lg:text-[1.4rem] text-[0.87rem] lg:pt-[3.69rem] pt-[1.49rem] lg:ml-[3.75rem] ml-[0.87rem] lg:leading-7 leading-[1.05rem]">Please use this form to submit an anonymous report of sexual and gender-based violence (SGBV). <br>Your identity will remain confidential, and your safety is 100% guaranteed.</p>
     <p class="lg:mt-[3rem] mt-[2rem] lg:ml-[3.75rem] ml-[0.87rem] lg:text-[1.33rem] text-[0.62rem] font-[400] leading-[0.95] text-[#FFFFFF]">Be an anonymous hero. Reporting abuse silently doesn't diminish your bravery; it amplifies it. <br> Your action might be the catalyst for change.</p>
   </section>
@@ -65,23 +65,23 @@
     <form action="/submit-report" method="POST">
       <!-- Personal Information -->
       <label for="name" class="lg:ml-[7.5rem] ml-[1.24rem] lg:mt-[8.20] pt-[3.20] lg:text-[1.75rem] text-[1rem] font-[400] lg:leading-[2.12rem] leading-[0.90rem]">Your Name (optional):</label>
-      <input type="text" id="name" name="name" class="lg:w-[43.56rem] w-[10rem] lg:h-[4.5rem] h-[6.09rem] bg-[#F8F7F7] lg:ml-[4.20rem] ml-[1.44rem] lg:pl-[2rem] pl-[1rem] lg:mt-10 mt-[1.62rem] lg:mr-0 mr-[1.93rem]">
+      <input type="text" id="name" name="name" class="lg:w-[43.56rem] w-[16rem] lg:h-[4.5rem] h-[6.09rem] bg-[#F8F7F7] lg:ml-[4.20rem] ml-[1.44rem] lg:pl-[2rem] pl-[1rem] lg:mt-10 mt-[1.62rem] lg:mr-0 mr-[1.93rem]">
       <!-- Incident Information --> 
       <div class="">
         <!-- Date of Incident -->
         <div class="mt-[3.69rem] mx-0">
           <label for="date" class="lg:ml-[7.7rem] ml-[1.27rem] lg:text-[1.75rem] text-[1rem] font-[400] lg:leading-[2.12rem] leading-[0.90rem]">Date of Incident:</label>
-          <input type="date" id="date" name="date" class="lg:w-[43.56rem] w-[10rem] lg:h-[4.5rem] h-[6.09rem] bg-[#F8F7F7] lg:ml-[8.20rem] ml-[4.10rem] lg:pl-[2rem] pl-[1rem] lg:pr-[1rem] pr-[1rem]" required>
+          <input type="date" id="date" name="date" class="lg:w-[43.56rem] w-[16rem] lg:h-[4.5rem] h-[6.09rem] bg-[#F8F7F7] lg:ml-[8.20rem] ml-[4.10rem] lg:pl-[2rem] pl-[1rem] lg:pr-[1rem] pr-[1rem]" required>
         </div>
         <!-- Time of Incident -->
         <div class="mt-[3.69rem]">
           <label for="time" class="lg:ml-[7.7rem] ml-[1.27rem] lg:text-[1.75rem] text-[1rem] font-[400] lg:leading-[2.12rem] leading-[0.90rem]">Time of Incident:</label>
-          <input type="time" id="time" name="time" class="lg:w-[43.56rem] w-[10rem] lg:h-[4.5rem] h-[6.09rem] bg-[#F8F7F7] lg:ml-[8.20rem] ml-[4.10rem] lg:pl-[2rem] pl-[1rem] lg:pr-[1rem] pr-[1rem]" required>
+          <input type="time" id="time" name="time" class="lg:w-[43.56rem] w-[16rem] lg:h-[4.5rem] h-[6.09rem] bg-[#F8F7F7] lg:ml-[8.20rem] ml-[4.10rem] lg:pl-[2rem] pl-[1rem] lg:pr-[1rem] pr-[1rem]" required>
         </div>
         <!-- Type of Violence -->
         <div class="mt-[3.69rem]">
           <label for="violenceType" class="lg:ml-[7.5rem] ml-[1.27rem] lg:text-[1.75rem] text-[1rem] font-[400] lg:leading-[2.12rem] leading-[0.90rem]">Type of Violence:</label>
-          <select id="violenceType" name="violenceType" class="lg:w-[43.56rem] w-[10rem] lg:h-[4.5rem] h-[6.09rem] bg-[#F8F7F7] lg:ml-[7.88rem] ml-[3.88rem] lg:pl-[2rem] pl-[1rem] lg:pr-[1rem] pr-[1rem]" required>
+          <select id="violenceType" name="violenceType" class="lg:w-[43.56rem] w-[16rem] lg:h-[4.5rem] h-[6.09rem] bg-[#F8F7F7] lg:ml-[7.88rem] ml-[3.88rem] lg:pl-[2rem] pl-[1rem] lg:pr-[1rem] pr-[1rem]" required>
             <option value="select an option">Select an option</option>
             <option value="sexualAssault">Sexual Assault</option>
             <option value="domesticViolence">Domestic Violence</option>
@@ -93,27 +93,27 @@
         <!-- Location of Incident -->
         <div class="mt-[3.69rem]">
           <label for="location" class="lg:ml-[7.5rem] ml-[1.24rem] lg:text-[1.75rem] text-[1rem] font-[400] lg:leading-[2.12rem] leading-[0.90rem]">Location of Incident:</label>
-          <input type="text" id="location" name="location" class="lg:w-[43.56rem] w-[10rem] lg:h-[4.5rem] h-[6.09rem] bg-[#F8F7F7] lg:ml-[5.20rem] ml-[2.50rem] lg:pl-[2rem] pl-[1rem]" required>
+          <input type="text" id="location" name="location" class="lg:w-[43.56rem] w-[16rem] lg:h-[4.5rem] h-[6.09rem] bg-[#F8F7F7] lg:ml-[5.20rem] ml-[2.50rem] lg:pl-[2rem] pl-[1rem]" required>
         </div>
         <!-- Perpetrator description -->
         <div class="mt-[3.69rem]">
           <label for="perpetrator" class="lg:ml-[7.5rem] ml-[1.24rem] mt-[0.81rem] lg:text-[1.75rem] text-[1rem] font-[400] lg:leading-[2.12rem] leading-[0.90rem]">Perpetrator Description (if known):</label>
-          <input type="text" id="perpetrator" name="perpetrator" class="lg:w-[65rem] w-[21.85rem] h-[10.25rem] bg-[#F8F7F7] mt-[1.20rem] lg:ml-[7.55rem] ml-[1.24rem] pl-[2rem]">
+          <input type="text" id="perpetrator" name="perpetrator" class="lg:w-[65rem] w-[27.85rem] h-[10.25rem] bg-[#F8F7F7] mt-[1.20rem] lg:ml-[7.55rem] ml-[1.24rem] pl-[2rem]">
         </div>
         <!-- Witnesses -->
         <div class="mt-[3.69rem]">
           <label for="witnesses" class="lg:ml-[7.5rem] ml-[1.24rem] mt-[1.20rem] lg:text-[1.75rem] text-[1rem] font-[400] lg:leading-[2.12rem] leading-[0.90rem]">Witnesses (if any, please details):</label>
-          <textarea id="witnesses" name="witnesses" rows="4" class="lg:w-[65rem] w-[21.85rem] h-[10.25rem] bg-[#F8F7F7] mt-[1.20rem] lg:ml-[7.55rem] ml-[1.24rem] pl-[2rem]"></textarea>
+          <textarea id="witnesses" name="witnesses" rows="4" class="lg:w-[65rem] w-[27.85rem] h-[10.25rem] bg-[#F8F7F7] mt-[1.20rem] lg:ml-[7.55rem] ml-[1.24rem] pl-[2rem] pt-[1.5rem]"></textarea>
         </div>
         <!-- Description of Incident -->
         <div class="mt-[3.69rem]">
           <label for="description" class="lg:ml-[7.5rem] ml-[1.24rem] mt-[1.20rem] lg:text-[1.75rem] text-[1rem] font-[400] lg:leading-[2.12rem] leading-[0.90rem]">Description of Incident:</label>
-          <textarea id="description" name="description" rows="4" class="lg:w-[65rem] w-[21.85rem] h-[10.25rem] bg-[#F8F7F7] mt-[1.20rem] lg:ml-[7.55rem] ml-[1.24rem] pl-[2rem]"></textarea>
+          <textarea id="description" name="description" rows="4" class="lg:w-[65rem] w-[27.85rem] h-[10.25rem] bg-[#F8F7F7] mt-[1.20rem] lg:ml-[7.55rem] ml-[1.24rem] pl-[2rem] pt-[1.5rem]"></textarea>
         </div>
         <!-- Additional Information -->
         <div class="mt-[3.69rem]">
           <label for="additionalInfo" class="lg:ml-[7.5rem] ml-[1.24rem] mt-[1.20rem] lg:text-[1.75rem] text-[1rem] font-[400] lg:leading-[2.12rem] leading-[0.90rem]">Additional Information:</label>
-          <textarea id="additionalInfo" name="additionalInfo" rows="4" placeholder="Add any other information you want us to know" class="lg:w-[65rem] w-[21.85rem] h-[10.25rem] bg-[#F8F7F7] mt-[1.20rem] lg:ml-[7.55rem] ml-[1.24rem] pt-[3rem]"></textarea>
+          <textarea id="additionalInfo" name="additionalInfo" rows="4" placeholder="Add any other information you want us to know" class="lg:w-[65rem] w-[27.85rem] h-[10.25rem] bg-[#F8F7F7] mt-[1.20rem] lg:ml-[7.55rem] ml-[1.24rem] pl-[2rem] pt-[3rem]"></textarea>
         </div>
       </div>
       <!-- Agreement Section  -->
@@ -125,7 +125,7 @@
       </div>
 
       <!-- Submit Button -->
-      <button type="submit" onclick="showAlert()" class="bg-[#537BE1] hover:bg-[#022253] h-[4.38rem] w-[13.5rem] rounded-[5.63rem] lg:mx-[28.25rem] mx-[5rem] lg:mt-[3rem] mt-[3rem] text-[#FFFFFF]">
+      <button type="submit" onclick="showAlert()" class="bg-[#537BE1] hover:bg-[#022253] h-[4.38rem] w-[13.5rem] rounded-[5.63rem] lg:mx-[28.25rem] mx-[5rem] lg:mt-[3rem] mt-[3rem] mb-[3rem] text-[#FFFFFF]">
         Submit Report
       </button>
     </form>
@@ -250,14 +250,9 @@
   </div>
 
   
-  <section class="text-[#FFFFFF] ml-[48px] mt-[64.7px] mr-[41px] flex-col  flex font-[400] text-[]">
-    <p class=" text-[10.76px]  ">
-    Speak up</p>
-    <p class="ml-[3.87rem] mt-[9.86px] text-[7px] w-[290px]">
-   
-   
-   
-    Copyright © 2020-2024, Speak Up,All rights reserved.</p>
+  <section class="text-[#FFFFFF] ml-[48px] mt-[64.7px] mr-[41px] flex font-[400] text-[]">
+    <p class="text-[10.76px] inline w-[7rem]"> Speak up</p>
+    <p class="mt-[0.2rem] text-[7px] w-[290px] inline">Copyright © 2020-2024, Speak Up,All rights reserved.</p>
   </section>
   
 
